@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2932BEBE2A45BF0E00E6835E /* BMMapView in Frameworks */ = {isa = PBXBuildFile; productRef = 2932BEBD2A45BF0E00E6835E /* BMMapView */; };
 		293D93012A442889004169A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D93002A442889004169A5 /* AppDelegate.swift */; };
 		293D93032A442889004169A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D93022A442889004169A5 /* SceneDelegate.swift */; };
 		293D93052A442889004169A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D93042A442889004169A5 /* ViewController.swift */; };
@@ -16,10 +17,13 @@
 		293D93182A44288D004169A5 /* AppleMapFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D93172A44288D004169A5 /* AppleMapFrameworkTests.swift */; };
 		293D93222A44288D004169A5 /* AppleMapFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D93212A44288D004169A5 /* AppleMapFrameworkUITests.swift */; };
 		293D93242A44288D004169A5 /* AppleMapFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D93232A44288D004169A5 /* AppleMapFrameworkUITestsLaunchTests.swift */; };
-		293D93332A442922004169A5 /* BMMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D93322A442922004169A5 /* BMMapView.swift */; };
-		293D93352A442A81004169A5 /* BMMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293D93342A442A81004169A5 /* BMMapView.xib */; };
-		293D93372A442DAB004169A5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D93362A442DAB004169A5 /* UIView+Extension.swift */; };
-		293D933D2A443F34004169A5 /* Contruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D933C2A443F34004169A5 /* Contruct.swift */; };
+		297083DE2A653A4900FFFB67 /* BranchCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 297083D72A653A4900FFFB67 /* BranchCardCell.xib */; };
+		297083DF2A653A4900FFFB67 /* BranchCardCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297083D82A653A4900FFFB67 /* BranchCardCellViewModel.swift */; };
+		297083E02A653A4900FFFB67 /* BranchCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297083D92A653A4900FFFB67 /* BranchCardCell.swift */; };
+		297083E12A653A4900FFFB67 /* BranchCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 297083DB2A653A4900FFFB67 /* BranchCardView.xib */; };
+		297083E22A653A4900FFFB67 /* ReusableCardViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297083DC2A653A4900FFFB67 /* ReusableCardViewType.swift */; };
+		297083E32A653A4900FFFB67 /* BranchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297083DD2A653A4900FFFB67 /* BranchCardView.swift */; };
+		297083E52A654BB900FFFB67 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297083E42A654BB900FFFB67 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +57,13 @@
 		293D931D2A44288D004169A5 /* AppleMapFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMapFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		293D93212A44288D004169A5 /* AppleMapFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapFrameworkUITests.swift; sourceTree = "<group>"; };
 		293D93232A44288D004169A5 /* AppleMapFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		293D93322A442922004169A5 /* BMMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMMapView.swift; sourceTree = "<group>"; };
-		293D93342A442A81004169A5 /* BMMapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BMMapView.xib; sourceTree = "<group>"; };
-		293D93362A442DAB004169A5 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		293D933C2A443F34004169A5 /* Contruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contruct.swift; sourceTree = "<group>"; };
+		297083D72A653A4900FFFB67 /* BranchCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BranchCardCell.xib; sourceTree = "<group>"; };
+		297083D82A653A4900FFFB67 /* BranchCardCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchCardCellViewModel.swift; sourceTree = "<group>"; };
+		297083D92A653A4900FFFB67 /* BranchCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchCardCell.swift; sourceTree = "<group>"; };
+		297083DB2A653A4900FFFB67 /* BranchCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BranchCardView.xib; sourceTree = "<group>"; };
+		297083DC2A653A4900FFFB67 /* ReusableCardViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableCardViewType.swift; sourceTree = "<group>"; };
+		297083DD2A653A4900FFFB67 /* BranchCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchCardView.swift; sourceTree = "<group>"; };
+		297083E42A654BB900FFFB67 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2932BEBE2A45BF0E00E6835E /* BMMapView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +115,9 @@
 		293D92FF2A442889004169A5 /* AppleMapFramework */ = {
 			isa = PBXGroup;
 			children = (
+				297083E42A654BB900FFFB67 /* UIView+Extension.swift */,
+				297083D62A653A4900FFFB67 /* BranchCardCell */,
+				297083DA2A653A4900FFFB67 /* CardView */,
 				293D933A2A443EB2004169A5 /* AppleMap */,
 				293D93002A442889004169A5 /* AppDelegate.swift */,
 				293D93042A442889004169A5 /* ViewController.swift */,
@@ -139,28 +150,28 @@
 		293D933A2A443EB2004169A5 /* AppleMap */ = {
 			isa = PBXGroup;
 			children = (
-				293D933E2A44655E004169A5 /* Extensions */,
-				293D933C2A443F34004169A5 /* Contruct.swift */,
-				293D933B2A443EBF004169A5 /* MapView */,
 			);
 			path = AppleMap;
 			sourceTree = "<group>";
 		};
-		293D933B2A443EBF004169A5 /* MapView */ = {
+		297083D62A653A4900FFFB67 /* BranchCardCell */ = {
 			isa = PBXGroup;
 			children = (
-				293D93322A442922004169A5 /* BMMapView.swift */,
-				293D93342A442A81004169A5 /* BMMapView.xib */,
+				297083D72A653A4900FFFB67 /* BranchCardCell.xib */,
+				297083D82A653A4900FFFB67 /* BranchCardCellViewModel.swift */,
+				297083D92A653A4900FFFB67 /* BranchCardCell.swift */,
 			);
-			path = MapView;
+			path = BranchCardCell;
 			sourceTree = "<group>";
 		};
-		293D933E2A44655E004169A5 /* Extensions */ = {
+		297083DA2A653A4900FFFB67 /* CardView */ = {
 			isa = PBXGroup;
 			children = (
-				293D93362A442DAB004169A5 /* UIView+Extension.swift */,
+				297083DB2A653A4900FFFB67 /* BranchCardView.xib */,
+				297083DC2A653A4900FFFB67 /* ReusableCardViewType.swift */,
+				297083DD2A653A4900FFFB67 /* BranchCardView.swift */,
 			);
-			path = Extensions;
+			path = CardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,9 @@
 			dependencies = (
 			);
 			name = AppleMapFramework;
+			packageProductDependencies = (
+				2932BEBD2A45BF0E00E6835E /* BMMapView */,
+			);
 			productName = AppleMapFramework;
 			productReference = 293D92FD2A442889004169A5 /* AppleMapFramework.app */;
 			productType = "com.apple.product-type.application";
@@ -251,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 293D92F42A442889004169A5;
+			packageReferences = (
+				2932BEBC2A45BF0E00E6835E /* XCRemoteSwiftPackageReference "BMMapView" */,
+			);
 			productRefGroup = 293D92FE2A442889004169A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,9 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				293D930D2A44288D004169A5 /* LaunchScreen.storyboard in Resources */,
-				293D93352A442A81004169A5 /* BMMapView.xib in Resources */,
 				293D930A2A44288D004169A5 /* Assets.xcassets in Resources */,
+				297083E12A653A4900FFFB67 /* BranchCardView.xib in Resources */,
 				293D93082A442889004169A5 /* Main.storyboard in Resources */,
+				297083DE2A653A4900FFFB67 /* BranchCardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293D933D2A443F34004169A5 /* Contruct.swift in Sources */,
+				297083E32A653A4900FFFB67 /* BranchCardView.swift in Sources */,
+				297083E02A653A4900FFFB67 /* BranchCardCell.swift in Sources */,
+				297083E52A654BB900FFFB67 /* UIView+Extension.swift in Sources */,
+				297083E22A653A4900FFFB67 /* ReusableCardViewType.swift in Sources */,
+				297083DF2A653A4900FFFB67 /* BranchCardCellViewModel.swift in Sources */,
 				293D93052A442889004169A5 /* ViewController.swift in Sources */,
-				293D93332A442922004169A5 /* BMMapView.swift in Sources */,
 				293D93012A442889004169A5 /* AppDelegate.swift in Sources */,
-				293D93372A442DAB004169A5 /* UIView+Extension.swift in Sources */,
 				293D93032A442889004169A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -636,6 +656,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2932BEBC2A45BF0E00E6835E /* XCRemoteSwiftPackageReference "BMMapView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mahmoud-Abdelwahab/BMMapView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2932BEBD2A45BF0E00E6835E /* BMMapView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2932BEBC2A45BF0E00E6835E /* XCRemoteSwiftPackageReference "BMMapView" */;
+			productName = BMMapView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 293D92F52A442889004169A5 /* Project object */;
 }

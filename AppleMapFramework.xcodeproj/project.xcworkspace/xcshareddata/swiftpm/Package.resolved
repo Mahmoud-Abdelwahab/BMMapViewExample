@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "bmmapview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Mahmoud-Abdelwahab/BMMapView",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3b2b696288c7077a05298aa13b676418ea09350c"
+      }
+    }
+  ],
+  "version" : 2
+}

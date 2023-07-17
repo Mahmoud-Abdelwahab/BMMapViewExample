@@ -16,21 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Nk-D5-7aD" customClass="BMMapView" customModule="AppleMapFramework" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Nk-D5-7aD" customClass="BMMapView" customModule="BMMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J89-xr-wDU" customClass="BranchCardView" customModule="AppleMapFramework" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="657" width="393" height="145"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="Hvq-D6-7YG"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0Nk-D5-7aD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8ki-9j-BiL"/>
-                            <constraint firstItem="0Nk-D5-7aD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ydj-yd-1jL"/>
+                            <constraint firstItem="0Nk-D5-7aD" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="8ki-9j-BiL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="J89-xr-wDU" secondAttribute="bottom" constant="16" id="EwF-5S-cIU"/>
+                            <constraint firstItem="J89-xr-wDU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YEL-9m-sBU"/>
+                            <constraint firstItem="0Nk-D5-7aD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ydj-yd-1jL"/>
                             <constraint firstItem="0Nk-D5-7aD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Z0a-gL-yUL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Nk-D5-7aD" secondAttribute="trailing" id="aFh-9L-ZND"/>
+                            <constraint firstItem="J89-xr-wDU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bIs-Q6-qY1"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="branchCardView" destination="J89-xr-wDU" id="poc-b3-5P1"/>
                         <outlet property="mapView" destination="0Nk-D5-7aD" id="I2e-7B-7PL"/>
                     </connections>
                 </viewController>
