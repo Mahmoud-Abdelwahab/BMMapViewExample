@@ -38,8 +38,6 @@ extension AppleMapViewModel {
         
         branchCardView?.animateCamera = { [weak self] annotation in
             let branchAnnotation =  BMAnnotation(coordinate: annotation.coordinates, title: annotation.branchName)
-            
-            //   self.moveAnnotationToTop(branchAnnotation)
             self?.mapView?.animateToAnnotation(branchAnnotation)
             self?.mapView?.scaleAnnotation(branchAnnotation)
         }
@@ -56,12 +54,12 @@ extension AppleMapViewModel {
                                     regionRadius: 50_000)
         ///
         //MARK: - Basic businsess
-        //        mapView?.shouldShowCalloutView(true)
-        //        mapView?.addAnnotations(bmAnnotations)
-        //        branchCardView?.didTapOnCard = { [weak self] annotation in
-        //            let branchAnnotation =  BMAnnotation(coordinate: annotation.coordinates, title: annotation.branchName)
-        //            self?.mapView?.selectAnnotation(branchAnnotation, regionRadius: 50_000)
-        //        }
+//                mapView?.shouldShowCalloutView(true)
+//                mapView?.addAnnotations(bmAnnotations)
+//                branchCardView?.didTapOnCard = { [weak self] annotation in
+//                    let branchAnnotation =  BMAnnotation(coordinate: annotation.coordinates, title: annotation.branchName)
+//                    self?.mapView?.selectAnnotation(branchAnnotation, regionRadius: 50_000)
+//                }
         ///
         
         //MARK: - BookVisit businsess
