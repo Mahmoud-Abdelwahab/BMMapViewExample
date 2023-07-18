@@ -24,6 +24,7 @@
 		297083E22A653A4900FFFB67 /* ReusableCardViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297083DC2A653A4900FFFB67 /* ReusableCardViewType.swift */; };
 		297083E32A653A4900FFFB67 /* BranchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297083DD2A653A4900FFFB67 /* BranchCardView.swift */; };
 		297083E52A654BB900FFFB67 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297083E42A654BB900FFFB67 /* UIView+Extension.swift */; };
+		297083E72A65800100FFFB67 /* AppleMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297083E62A65800100FFFB67 /* AppleMapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		297083DC2A653A4900FFFB67 /* ReusableCardViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableCardViewType.swift; sourceTree = "<group>"; };
 		297083DD2A653A4900FFFB67 /* BranchCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchCardView.swift; sourceTree = "<group>"; };
 		297083E42A654BB900FFFB67 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		297083E62A65800100FFFB67 /* AppleMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				293D93092A44288D004169A5 /* Assets.xcassets */,
 				293D930B2A44288D004169A5 /* LaunchScreen.storyboard */,
 				293D930E2A44288D004169A5 /* Info.plist */,
+				297083E62A65800100FFFB67 /* AppleMapViewModel.swift */,
 			);
 			path = AppleMapFramework;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				297083E32A653A4900FFFB67 /* BranchCardView.swift in Sources */,
 				297083E02A653A4900FFFB67 /* BranchCardCell.swift in Sources */,
 				297083E52A654BB900FFFB67 /* UIView+Extension.swift in Sources */,
+				297083E72A65800100FFFB67 /* AppleMapViewModel.swift in Sources */,
 				297083E22A653A4900FFFB67 /* ReusableCardViewType.swift in Sources */,
 				297083DF2A653A4900FFFB67 /* BranchCardCellViewModel.swift in Sources */,
 				293D93052A442889004169A5 /* ViewController.swift in Sources */,
