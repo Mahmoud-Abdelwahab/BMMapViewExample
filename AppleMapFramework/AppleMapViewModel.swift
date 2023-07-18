@@ -49,25 +49,24 @@ extension AppleMapViewModel {
     
     private func configureMap() {
         mapView?.delegate = self
-        let annotation = BMAnnotation(coordinate: CLLocationCoordinate2D(latitude: 30.0352073, longitude: 31.563370237647135), title: "My Map! 😂")
+        let annotation = bmAnnotations[5]
         
         mapView?.setDefaultPinIcon(with: UIImage(named: "map-pin-icon")!)
         mapView?.centerToAnnotation(annotation,
                                     regionRadius: 50_000)
-        
-        mapView?.fitAnnotationsInTheScreen(bmAnnotations)
-        mapView?.scaleAnnotation(bmAnnotations[0], selectedScale: 1.7)
-        
-      
         ///
         //MARK: - Basic businsess
-//        mapView?.shouldShowCalloutView(true)
-//        mapView?.addAnnotations(bmAnnotations)
-//        branchCardView?.didTapOnCard = { [weak self] annotation in
-//            let branchAnnotation =  BMAnnotation(coordinate: annotation.coordinates, title: annotation.branchName)
-//            self?.mapView?.selectAnnotation(branchAnnotation, regionRadius: 50_000)
-//        }
+        //        mapView?.shouldShowCalloutView(true)
+        //        mapView?.addAnnotations(bmAnnotations)
+        //        branchCardView?.didTapOnCard = { [weak self] annotation in
+        //            let branchAnnotation =  BMAnnotation(coordinate: annotation.coordinates, title: annotation.branchName)
+        //            self?.mapView?.selectAnnotation(branchAnnotation, regionRadius: 50_000)
+        //        }
         ///
+        
+        //MARK: - BookVisit businsess
+        mapView?.fitAnnotationsInTheScreen(bmAnnotations)
+        mapView?.scaleAnnotation(bmAnnotations[0], selectedScale: 1.7)
     }
     
     func mapAnnotationToBranchCellModel() {
@@ -89,7 +88,7 @@ extension AppleMapViewModel: BMMapDelegate {
     
     func didSelectAnnotation(_ annotation: BMAnnotation) {
         mapView?.animateToAnnotation(annotation, zoomLevel: nil, animated: true)
-        mapView?.scaleAnnotation(annotation, selectedScale: 1.7)
+        mapView?.scaleAnnotation(annotation, selectedScale: 1.5)
         let index = _30Branche.firstIndex(where: {$0.coordinates == annotation.coordinate})!
         branchCardView?.scrollTo(desiredIndex: index)
     }
