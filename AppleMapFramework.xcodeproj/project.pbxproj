@@ -120,15 +120,11 @@
 				297083E42A654BB900FFFB67 /* UIView+Extension.swift */,
 				297083D62A653A4900FFFB67 /* BranchCardCell */,
 				297083DA2A653A4900FFFB67 /* CardView */,
-				293D933A2A443EB2004169A5 /* AppleMap */,
-				293D93002A442889004169A5 /* AppDelegate.swift */,
 				293D93042A442889004169A5 /* ViewController.swift */,
-				293D93022A442889004169A5 /* SceneDelegate.swift */,
-				293D93062A442889004169A5 /* Main.storyboard */,
-				293D93092A44288D004169A5 /* Assets.xcassets */,
-				293D930B2A44288D004169A5 /* LaunchScreen.storyboard */,
-				293D930E2A44288D004169A5 /* Info.plist */,
 				297083E62A65800100FFFB67 /* AppleMapViewModel.swift */,
+				293D93062A442889004169A5 /* Main.storyboard */,
+				293D930E2A44288D004169A5 /* Info.plist */,
+				293D933A2A443EB2004169A5 /* Resources */,
 			);
 			path = AppleMapFramework;
 			sourceTree = "<group>";
@@ -150,11 +146,15 @@
 			path = AppleMapFrameworkUITests;
 			sourceTree = "<group>";
 		};
-		293D933A2A443EB2004169A5 /* AppleMap */ = {
+		293D933A2A443EB2004169A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				293D93002A442889004169A5 /* AppDelegate.swift */,
+				293D93022A442889004169A5 /* SceneDelegate.swift */,
+				293D930B2A44288D004169A5 /* LaunchScreen.storyboard */,
+				293D93092A44288D004169A5 /* Assets.xcassets */,
 			);
-			path = AppleMap;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		297083D62A653A4900FFFB67 /* BranchCardCell */ = {
