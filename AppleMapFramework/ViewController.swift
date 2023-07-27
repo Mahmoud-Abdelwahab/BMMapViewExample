@@ -13,9 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var branchCardView: BranchCardView!
     @IBOutlet weak var mapView: BMMapView!
     
-    
-//    var _30Branche = [BranchCardCellViewModel]()
-    
     var viewModel = AppleMapViewModel()
     
     override func viewDidLoad() {

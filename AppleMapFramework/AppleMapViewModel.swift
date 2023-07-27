@@ -15,7 +15,7 @@ final class AppleMapViewModel {
     weak var branchCardView: ReusableCardViewType?
     weak var mapView: BMMapInputType?
     var _30Branche = [BranchCardCellViewModel]()
-
+    
     init() {
         mapAnnotationToBranchCellModel()
     }
@@ -54,12 +54,8 @@ extension AppleMapViewModel {
                                     regionRadius: 50_000)
         ///
         //MARK: - Basic businsess
-//                mapView?.shouldShowCalloutView(true)
-//                mapView?.addAnnotations(bmAnnotations)
-//                branchCardView?.didTapOnCard = { [weak self] annotation in
-//                    let branchAnnotation =  BMAnnotation(coordinate: annotation.coordinates, title: annotation.branchName)
-//                    self?.mapView?.selectAnnotation(branchAnnotation, regionRadius: 50_000)
-//                }
+        // mapView?.shouldShowCalloutView(true)
+        // mapView?.addAnnotations(bmAnnotations)
         ///
         
         //MARK: - BookVisit businsess
@@ -92,12 +88,12 @@ extension AppleMapViewModel: BMMapDelegate {
     }
     
     func didDrageOnMap() {
-        print("Draging....")
+        print("✅ Draging.... ")
     }
-    
+
     func didTapOnCalloutView(_ annotation: BMAnnotation) {
-        
-        print("Callout Tapped", annotation)
+
+        print("✅ Callout Tapped", annotation)
     }
 }
 
