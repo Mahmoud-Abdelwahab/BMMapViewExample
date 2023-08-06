@@ -11,13 +11,13 @@ import BMMapView
 class ViewController: UIViewController {
     
     @IBOutlet weak var branchCardView: BranchCardView!
-    @IBOutlet weak var mapView: BMMapView!
     
+    @IBOutlet weak var appleMapView: BMAppleMapView!
     var viewModel = AppleMapViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel.setupMapView(with: mapView)
+        viewModel.setupMapView(with: appleMapView)
         viewModel.setupCardView(with: branchCardView)
     }
 }

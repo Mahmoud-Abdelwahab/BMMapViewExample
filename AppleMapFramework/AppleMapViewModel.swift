@@ -51,14 +51,14 @@ extension AppleMapViewModel {
         
         mapView?.setDefaultPinIcon(with: UIImage(named: "map-pin-icon")!)
         mapView?.centerToAnnotation(annotation,
-                                    regionRadius: 50_000)
+                                    regionRadius: 50_00)
         ///
         //MARK: - Basic businsess
-        // mapView?.shouldShowCalloutView(true)
-        // mapView?.addAnnotations(bmAnnotations)
+//         mapView?.shouldShowCalloutView(true)
+//         mapView?.addAnnotations(bmAnnotations)
         ///
         
-        //MARK: - BookVisit businsess
+       // MARK: - BookVisit businsess
         mapView?.fitAnnotationsInTheScreen(bmAnnotations)
         mapView?.scaleAnnotation(bmAnnotations[0], selectedScale: 1.7)
     }
